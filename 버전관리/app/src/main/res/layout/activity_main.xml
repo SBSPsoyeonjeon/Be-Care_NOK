@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background = "@drawable/background"
+    android:id="@+id/activity_main"
+    tools:context=".MapFragment">
+    <!--
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapFragment"
+        app:srcCompat="@drawable/patient"-->
+
+    <ImageView
+        android:id="@+id/Room1"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src ="@drawable/patient"
+        android:visibility="invisible"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:id="@+id/Room2"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src ="@drawable/patient"
+        android:visibility="invisible"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="160dp" />
+
+    <ImageView
+        android:id="@+id/Room3"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src ="@drawable/patient"
+        android:visibility="invisible"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="260dp" />
+
+    <ImageView
+        android:id="@+id/Room4"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src ="@drawable/patient"
+        android:visibility="invisible"
+        android:layout_marginLeft="235dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="60dp" />
+
+    <ImageView
+        android:id="@+id/Room5"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src ="@drawable/patient"
+        android:visibility="invisible"
+        android:layout_marginLeft="235dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="180dp" />
+
+    <ImageView
+        android:id="@+id/Room6"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src ="@drawable/patient"
+        android:visibility="invisible"
+        android:layout_marginLeft="235dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="310dp" />
+
+    <ImageView
+        android:id="@+id/Alley1"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src ="@drawable/patient"
+        android:visibility="invisible"
+        android:layout_marginLeft="140dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="60dp" />
+
+    <ImageView
+        android:id="@+id/Alley2"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src ="@drawable/patient"
+        android:visibility="invisible"
+        android:layout_marginLeft="140dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="180dp" />
+
+    <ImageView
+        android:id="@+id/Alley3"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src ="@drawable/patient"
+        android:visibility="invisible"
+        android:layout_marginLeft="140dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="310dp" />
+
+    <ImageView
+        android:id="@+id/Door"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:src ="@drawable/patient"
+        android:visibility="invisible"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="362dp" />
+
+
+    <ImageView
+        android:id="@+id/Open"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:src ="@drawable/open"
+        android:visibility="visible"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="370dp" />
+
+
+</RelativeLayout>
